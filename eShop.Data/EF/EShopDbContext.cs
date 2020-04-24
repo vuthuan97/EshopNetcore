@@ -22,6 +22,17 @@ namespace eShop.Data.EF
             modelBuilder.ApplyConfiguration(new OrderConfigurations());
             modelBuilder.ApplyConfiguration(new OrderDetailConfigurations());
 
+
+            modelBuilder.ApplyConfiguration(new CategoryTranslationConfigurations());
+            modelBuilder.ApplyConfiguration(new ContactConfigurations());
+            modelBuilder.ApplyConfiguration(new LanguageConfigurations());
+            modelBuilder.ApplyConfiguration(new ProductTranslationConfigurations());
+            modelBuilder.ApplyConfiguration(new PromotionConfiguration());
+            modelBuilder.ApplyConfiguration(new TransactionConfigurations());
+
+            
+
+
             //base.OnModelCreating(modelBuilder);
         }
         public DbSet<Product> Products { get; set; }

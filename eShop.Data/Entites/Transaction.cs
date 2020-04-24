@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Transactions;
+using eShop.Data.Enum;
+using TransactionStatus = eShop.Data.Enum.TransactionStatus;
 
 namespace eShop.Data.Entites
 {
