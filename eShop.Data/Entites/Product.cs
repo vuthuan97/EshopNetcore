@@ -13,8 +13,8 @@ namespace eShop.Data.Entites
         public decimal Price { get; set; }
         public decimal OriginalPrice { get; set; }
         public int Stock { get; set; }
-        public DateTime ViewCount { get; set; }
-        public string DateCreateSeoAlias { get; set; }
+        public int ViewCount { get; set; }
+        public DateTime DateCreate{ get; set; }
         public List<ProductInCategory> ProductInCategories { get; set; }
         public List<OrderDetail> OrderDetails { get; set; }
         public List<Cart> Carts { get; set; }
