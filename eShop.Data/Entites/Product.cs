@@ -6,7 +6,6 @@ using System.Text;
 
 namespace eShop.Data.Entites
 {
-
     public class Product
     {
         public int Id { get; set; }
@@ -19,5 +18,6 @@ namespace eShop.Data.Entites
         public List<OrderDetail> OrderDetails { get; set; }
         public List<Cart> Carts { get; set; }
         public List<ProductTranslation> ProductTranslations { get; set; }
+        public List<ProductImage> ProductImages { get; set; }
     }
 }
